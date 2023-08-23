@@ -1,0 +1,34 @@
+
+/* Styles for devices with a minimum width of 1068px pixels with high resolutions screens (all others screens and laptops) */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx){
+  html{
+    font-size: 18px;
+ }
+}
+
+/* Styles for devices with a maximum width of 1068px pixels with high resolutions screens  (tablets and small laptops) */
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi){
+  html{
+    font-size: 16px;
+ }
+}
+
+/* Styles for devices with a maximum width of 1068px pixels (tablets and small laptops) */
+@media only screen and (max-width: 1068px){
+  html{
+    font-size: 16px;
+ }
+}
+
+/* Styles for devices with a maximum width of 767 pixels with high resolutions screens(mobile devices) */
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi){
+  html{
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 735px) {
+  html{
+    font-size: 14px;
+}
+}

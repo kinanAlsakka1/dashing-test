@@ -1,0 +1,36 @@
+.table-container{
+    border: 1px solid #ddd;
+    min-width: 380px;
+    width: 80%;
+    text-align: center;
+    margin: 10px;
+    border-collapse: collapse;
+    tr{
+        border-top: 1px solid #ddd;
+        height: 40px;
+    }
+    thead{
+        tr{
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            background: var(--color-primary);
+            color: var(--color-white);
+            font-size: var(--font-normal);
+        }
+    }
+    th{
+        border-right: 1px solid #ddd;
+    }
+    td{
+        border-right: 1px solid #ddd;
+    }
+    .add-new-employee-btn{
+        background-color: var(--color-light-gray);
+        color: var(--color-white);
+        cursor: pointer;
+    }
+    .add-new-employee-btn:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}

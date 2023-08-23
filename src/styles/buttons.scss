@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.dashing-btn{
+    height: 36px !important;
+    max-width: 100% !important;
+    background: var(--color-primary) !important;
+    color: var(--color-white) !important;
+    border-radius: 6px !important;
+    font-size: var(--font-normal) !important;
+    font-weight: 600 !important;
+    padding: 0px 20px !important;
+    cursor: pointer !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    text-transform: capitalize !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    -webkit-tap-highlight-color : unset !important;
+    transition : none !important ; 
+    border: 0px !important;
+}
+
+// size 
+.small-btn{
+    padding: 0px 10px !important;
+    height: 30px !important;
+    font-size: var(--font-small) !important;
+    margin: auto;
+}
+.normal-btn{
+    height: 36px !important;
+    font-size: var(--font-medium) !important;
+}
+.large-btn{
+    height: 48px !important;
+    font-size: var(--font-medium) !important;
+}
+.hug-btn{
+    height: 60px !important;
+    font-size: var(--font-semi-large) !important;
+}
+  
+// colors 
+.primary-btn{
+    background: var(--color-primary) !important;
+    color: var(--color-white) !important;
+}
+.primary-btn:hover{
+    background: var(--color-secondary) !important;
+}
+
+.secondary-btn{
+    background: var(--color-secondary) !important;
+    color: var(--color-white) !important; 
+}
+.secondary-btn:hover{
+    background-color: var(--color-white) !important;
+    color: var(--color-secondary) !important;
+}
+
+.red-btn{
+    background: var(--color-red) !important;
+    color: var(--color-white) !important;
+}
+.red-btn:hover{
+    background: var(--color-red-50) !important;
+}
+
+// style
+.outline-btn{
+    background: transparent !important;
+    color: var(--color-primary) !important;
+    border: 0px !important;
+}
+.outline-btn:hover{
+    background: var(--color-primary-10) !important;
+}
+
+.dashing-btn:disabled{
+    opacity: 0.3;
+    cursor: not-allowed !important;
+}

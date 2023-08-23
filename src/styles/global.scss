@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+#root {
+    overflow: hidden;
+  }
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    font-family: 'Inter','Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f6f6f6;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Inter','Lato', sans-serif;
+}
+
+.w-100{
+    width: 100%;
+}
+
+
+  
+  .spinner {
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-top: 3px solid  var(--color-white);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 1s linear infinite;
+    margin: 5px
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
